@@ -7,10 +7,11 @@ import ExpenseForm from './components/ExpenseForm';
 import GoalTracker from './components/GoalTracker';
 import SpendingInsights from './components/SpendingInsights';
 import WhatsAppConnect from './components/WhatsAppConnect';
+import RewardsCenter from './components/RewardsCenter';
 import { recentExpenses } from './data/finbuddyData';
 
 function App() {
-  const [currentView, setCurrentView] = useState('setup'); // 'setup', 'dashboard', 'expenses', 'goals', 'insights', etc.
+  const [currentView, setCurrentView] = useState('setup'); // 'setup', 'dashboard', 'expenses', 'goals', 'rewards', 'insights', etc.
   const [showExpenseForm, setShowExpenseForm] = useState(false);
   const [expenses, setExpenses] = useState(recentExpenses);
   const [isSetupComplete, setIsSetupComplete] = useState(false);
@@ -93,6 +94,8 @@ function App() {
             <GoalTracker />
           </div>
         );
+      case 'rewards':
+        return <RewardsCenter />;
       case 'insights':
         return (
           <div className="space-y-6">

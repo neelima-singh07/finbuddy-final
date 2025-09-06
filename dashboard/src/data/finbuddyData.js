@@ -2,10 +2,10 @@
 
 // User profile and goals
 export const userProfile = {
-  name: 'John Doe',
-  email: 'john@example.com',
-  whatsappNumber: '+1234567890',
-  monthlyIncome: 5000,
+  name: 'Neelima Singh',
+  email: 'neelima.arun2007@gmail.com',
+  whatsappNumber: '87662xxxxx',
+  monthlyIncome: 500000,
   setupComplete: true
 };
 

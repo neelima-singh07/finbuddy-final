@@ -38,6 +38,8 @@ Desktop.ini
 *.ntvs*
 *.njsproj
 *.sln
+.MGXEnv.json
+.MGXTools/
 *.sw?
 .sass-cache/
 .vite_opt_cache/

@@ -30,7 +30,7 @@ const Header = ({ onAddExpense }) => {
             </div>
             
             <div className="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
-              <span className="text-gray-600 text-sm font-medium">JD</span>
+              <span className="text-gray-600 text-sm font-medium">NS</span>
             </div>
           </div>
         </div>
