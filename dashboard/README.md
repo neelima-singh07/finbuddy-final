@@ -12,7 +12,7 @@ Get started with Recharts by reading the [fundamentals page](https://recharts.or
 
 
 
-## Commands
+## Commands to run 
 
 **Install Dependencies**
 
