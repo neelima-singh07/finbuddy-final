@@ -60,7 +60,7 @@ export const radarChartData = [
 export const mockStats = [
   {
     title: 'Total Revenue',
-    value: '$54,385',
+    value: '₹54,385',
     change: '+14.5%',
     trend: 'up',
     icon: {

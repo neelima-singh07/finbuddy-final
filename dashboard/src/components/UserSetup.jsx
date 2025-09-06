@@ -77,7 +77,7 @@ const UserSetup = ({ onComplete }) => {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Monthly Income ($)</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Monthly Income (₹)</label>
             <input
               type="number"
               value={profile.monthlyIncome}
@@ -101,7 +101,7 @@ const UserSetup = ({ onComplete }) => {
               <div className="flex-1">
                 <h3 className="font-medium text-gray-900">{goal.name}</h3>
                 <div className="flex items-center space-x-4 text-sm text-gray-600 mt-1">
-                  <span>${goal.currentAmount.toLocaleString()} / ${goal.targetAmount.toLocaleString()}</span>
+                  <span>₹{goal.currentAmount.toLocaleString()} / ₹{goal.targetAmount.toLocaleString()}</span>
                   <span>Due: {goal.deadline}</span>
                   <span className={`px-2 py-1 rounded-full text-xs ${
                     goal.priority === 'high' ? 'bg-red-100 text-red-800' :
@@ -176,9 +176,9 @@ const UserSetup = ({ onComplete }) => {
         <div className="bg-white rounded-lg p-4 mb-4">
           <p className="text-sm text-gray-600 mb-2">Example messages:</p>
           <div className="space-y-1 text-sm">
-            <p className="bg-gray-100 p-2 rounded">💰 "Spent $25 on lunch at McDonald's"</p>
-            <p className="bg-gray-100 p-2 rounded">🚗 "Gas $45"</p>
-            <p className="bg-gray-100 p-2 rounded">🛍️ "Shopping $120 at Target"</p>
+            <p className="bg-gray-100 p-2 rounded">💰 "Spent ₹25 on lunch at McDonald's"</p>
+            <p className="bg-gray-100 p-2 rounded">🚗 "Gas ₹45"</p>
+            <p className="bg-gray-100 p-2 rounded">🛍️ "Shopping ₹120 at Target"</p>
           </div>
         </div>
         <button className="bg-green-500 text-white px-6 py-2 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500">

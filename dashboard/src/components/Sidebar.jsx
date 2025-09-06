@@ -35,7 +35,7 @@ const Sidebar = ({ currentView, onViewChange }) => {
             💡 Quick Tip
           </h3>
           <p className="text-xs text-green-700">
-            Message FinBuddy on WhatsApp: "Spent $25 on lunch" and I'll automatically categorize it!
+            Message FinBuddy on WhatsApp: "Spent ₹25 on lunch" and I'll automatically categorize it!
           </p>
           <button className="mt-2 text-xs text-green-600 font-medium hover:text-green-800">
             Try it now →

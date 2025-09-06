@@ -35,7 +35,7 @@ const GoalTracker = () => {
                 <div>
                   <h3 className="font-semibold text-gray-900">{goal.name}</h3>
                   <p className="text-sm text-gray-600">
-                    ${goal.currentAmount.toLocaleString()} of ${goal.targetAmount.toLocaleString()}
+                    ₹{goal.currentAmount.toLocaleString()} of ₹{goal.targetAmount.toLocaleString()}
                   </p>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -51,7 +51,7 @@ const GoalTracker = () => {
               <div className="mb-3">
                 <div className="flex justify-between text-sm text-gray-600 mb-1">
                   <span>{progress.toFixed(1)}% Complete</span>
-                  <span>${remaining.toLocaleString()} to go</span>
+                  <span>₹{remaining.toLocaleString()} to go</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-3">
                   <div 
@@ -81,7 +81,7 @@ const GoalTracker = () => {
         <h3 className="font-medium text-blue-900 mb-2">💡 Smart Tip</h3>
         <p className="text-sm text-blue-800">
           You're doing great! Consider setting up automatic transfers to reach your goals faster. 
-          Based on your spending patterns, you could save an extra $200/month by reducing dining out expenses.
+          Based on your spending patterns, you could save an extra ₹200/month by reducing dining out expenses.
         </p>
       </div>
     </div>

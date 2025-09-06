@@ -141,8 +141,8 @@ export const aiInsights = [
 export const finbuddyStats = [
   {
     title: 'Monthly Budget',
-    value: '$3,000',
-    spent: '$2,650',
+    value: '₹3,000',
+    spent: '₹2,650',
     change: '-11.7%',
     trend: 'up',
     icon: {
@@ -162,7 +162,7 @@ export const finbuddyStats = [
   },
   {
     title: 'Total Saved',
-    value: '$13,200',
+    value: '₹13,200',
     change: '+8.5%',
     trend: 'up',
     icon: {

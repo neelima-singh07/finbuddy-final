@@ -40,7 +40,7 @@ const Dashboard = ({ expenses = recentExpenses }) => {
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="month" />
               <YAxis />
-              <Tooltip formatter={(value) => [`$${value}`, '']} />
+              <Tooltip formatter={(value) => [`₹${value}`, '']} />
               <Area type="monotone" dataKey="budget" stackId="1" stroke="#E5E7EB" fill="#E5E7EB" name="Budget" />
               <Area type="monotone" dataKey="spent" stackId="2" stroke="#3B82F6" fill="#3B82F6" name="Spent" />
             </AreaChart>
@@ -65,7 +65,7 @@ const Dashboard = ({ expenses = recentExpenses }) => {
                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                 ))}
               </Pie>
-              <Tooltip formatter={(value) => [`$${value}`, 'Amount']} />
+              <Tooltip formatter={(value) => [`₹${value}`, 'Amount']} />
             </PieChart>
           </ResponsiveContainer>
         </div>
@@ -89,7 +89,7 @@ const Dashboard = ({ expenses = recentExpenses }) => {
             <div key={expense.id} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                  <span className="text-blue-600 font-medium">${expense.amount}</span>
+                  <span className="text-blue-600 font-medium">₹{expense.amount}</span>
                 </div>
                 <div>
                   <p className="font-medium text-gray-900">{expense.description}</p>
@@ -107,7 +107,7 @@ const Dashboard = ({ expenses = recentExpenses }) => {
                 </div>
               </div>
               <div className="text-right">
-                <p className="font-semibold text-gray-900">${expense.amount.toFixed(2)}</p>
+                <p className="font-semibold text-gray-900">₹{expense.amount.toFixed(2)}</p>
               </div>
             </div>
           ))}

@@ -59,7 +59,7 @@ function App() {
                   <div key={expense.id} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                     <div className="flex items-center space-x-3">
                       <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                        <span className="text-blue-600 font-bold">${expense.amount}</span>
+                        <span className="text-blue-600 font-bold">₹{expense.amount}</span>
                       </div>
                       <div>
                         <p className="font-medium text-gray-900">{expense.description}</p>
@@ -77,7 +77,7 @@ function App() {
                       </div>
                     </div>
                     <div className="text-right">
-                      <p className="font-semibold text-gray-900">${expense.amount.toFixed(2)}</p>
+                      <p className="font-semibold text-gray-900">₹{expense.amount.toFixed(2)}</p>
                       <button className="text-sm text-red-500 hover:text-red-700">Delete</button>
                     </div>
                   </div>

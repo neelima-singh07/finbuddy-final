@@ -174,10 +174,10 @@ const WhatsAppConnect = () => {
             <h3 className="font-medium text-gray-800 mb-3">📝 Message Examples</h3>
             <div className="space-y-2">
               <div className="bg-green-100 p-3 rounded-lg text-sm">
-                <strong>You:</strong> "Spent $25 on lunch at McDonald's"
+                <strong>You:</strong> "Spent ₹25 on lunch at McDonald's"
               </div>
               <div className="bg-blue-100 p-3 rounded-lg text-sm">
-                <strong>FinBuddy:</strong> "✅ Added $25 expense for Food & Dining. Your monthly food budget: $175 remaining."
+                <strong>FinBuddy:</strong> "✅ Added ₹25 expense for Food & Dining. Your monthly food budget: ₹175 remaining."
               </div>
             </div>
           </div>
@@ -201,25 +201,25 @@ const WhatsAppConnect = () => {
           <div className="space-y-3 max-h-64 overflow-y-auto">
             <div className="flex justify-end">
               <div className="bg-green-500 text-white p-3 rounded-lg max-w-xs">
-                <p className="text-sm">Spent $45 on gas</p>
+                <p className="text-sm">Spent ₹45 on gas</p>
                 <p className="text-xs opacity-75">2:34 PM</p>
               </div>
             </div>
             <div className="flex justify-start">
               <div className="bg-gray-100 p-3 rounded-lg max-w-xs">
-                <p className="text-sm">✅ Added $45 expense for Transportation. Monthly transport budget: $155 remaining.</p>
+                <p className="text-sm">✅ Added ₹45 expense for Transportation. Monthly transport budget: ₹155 remaining.</p>
                 <p className="text-xs text-gray-500">2:34 PM</p>
               </div>
             </div>
             <div className="flex justify-end">
               <div className="bg-green-500 text-white p-3 rounded-lg max-w-xs">
-                <p className="text-sm">Coffee $4.50</p>
+                <p className="text-sm">Coffee ₹4.50</p>
                 <p className="text-xs opacity-75">1:15 PM</p>
               </div>
             </div>
             <div className="flex justify-start">
               <div className="bg-gray-100 p-3 rounded-lg max-w-xs">
-                <p className="text-sm">☕ Added $4.50 for Food & Dining. Tip: You've had 12 coffees this month - consider brewing at home to save $30!</p>
+                <p className="text-sm">☕ Added ₹4.50 for Food & Dining. Tip: You've had 12 coffees this month - consider brewing at home to save ₹30!</p>
                 <p className="text-xs text-gray-500">1:15 PM</p>
               </div>
             </div>

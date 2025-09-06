@@ -44,7 +44,7 @@ const ExpenseForm = ({ onAddExpense, onClose }) => {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Amount ($)</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Amount (₹)</label>
             <input
               type="number"
               step="0.01"
